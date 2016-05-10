@@ -1,0 +1,12 @@
+
+### Trigger Integration with Docker Hub
+#deployment:
+#  dockerhub:
+#    branch: master
+#    commands:
+#      - $DOCKER_HUB_TRIGGER
+
+### Test Framework ###
+test:
+  override:    
+    - mocha
